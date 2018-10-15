@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "Trebuchet MS";
+    src: url("../fonts/TrebuchetMS.ttf");
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ECEFF1;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login{
+    width: 260px;
+    max-width: 320px;
+    height: 350px;
+    min-height: 350px;
+    box-sizing: border-box;
+    border: 1px solid #212121;
+    border-radius: 2px;
+    background: linear-gradient(to right, #dd2c00 0%,#ff9e80 100%);
+    color: #FAFAFA;
+    padding: 10px;
+    font-family: "Trebuchet MS";
+}
+
+.form--head{
+    height: 30%;
+    text-align: center;
+}
+
+.form--head h1, .form--head p{
+    margin: 0;
+}
+
+.form--body{
+    height: 55%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.input{
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.input label{
+    display: block;
+}
+
+.input label ~ *{
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.form--footer{
+    height: 15%;
+}
+
+input[type="submit"]{
+    font-family: "Trebuchet MS";
+    width: 100%;
+    border: 0;
+    padding: 7px;
+    border-radius: 2px;
+    background-color: #E0E0E0;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #BDBDBD;
+}
