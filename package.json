@@ -8,5 +8,8 @@
     "start": "electron ."
   },
   "author": "gerardosoriano97@gmail.com",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^3.0.4"
+  }
 }
