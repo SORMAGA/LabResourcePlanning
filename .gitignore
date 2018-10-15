@@ -1,0 +1,7 @@
+.idea/
+etc/
+node_modules/
+electron
+electron.cmd
+ng
+ng.cmd
